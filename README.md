@@ -12,10 +12,17 @@ The tests are a series of `.ura` files categorized in different folders.
 
 Automation of these tests is not possible because exception handling is dependent on each tool used. To make it agnostic to the programming language used by the interested developer, it was decided to provide a series of files that can be easily integrated into any project.
 
+All available files are for testing the correct parsing of Gura but do not consider methods such as Gura text emission (needed for the `dump` method). These are under the responsibility of the developer working on the implementation.
+
 If you are interested in practical usage examples, you can check any parser project maintained by the organization (Python, JS/TS, Rust, V). All of them includes all the test listed in this repository.
 
 
-## Licence
+## Clarification
+
+While the use of the resources here is recommended, it should be noted that the purpose of this repository is simply to facilitate the task of developers. You should feel free to use the tests available here as you wish, adding or omitting those you consider necessary. 
+
+
+## License
 
 This repository is distributed under the terms of the MIT license.
 
