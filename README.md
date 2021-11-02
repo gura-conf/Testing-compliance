@@ -1,4 +1,4 @@
-Gura Compliance
+# Gura Compliance
 
 This repository contains several tests useful for any developer working on a Gura format parser/emitter.
 
